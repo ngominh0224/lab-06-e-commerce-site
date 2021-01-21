@@ -5,8 +5,8 @@ export const chocolate = [
         image: '../assets/kitkat-reg.jpg',
         description: 'Milk Chocolate Wafers',
         category: 'candy',
-        size: 'regular',
-        price: 1.79
+        size: 'Regular',
+        price: 1.79,
     },
     {
         id: 2,
@@ -14,8 +14,8 @@ export const chocolate = [
         image: '../assets/kitkat-king.jpg',
         description: 'Milk Chocolate Wafers',
         category: 'candy',
-        size: 'king',
-        price: 2.19
+        size: 'King',
+        price: 2.19,
     },
     {
         id: 3,
@@ -23,8 +23,8 @@ export const chocolate = [
         image: '../assets/darkkitkat-reg.jpg',
         description: 'Dark Chocolate Wafers',
         category: 'candy',
-        size: 'regular',
-        price: 1.79
+        size: 'Regular',
+        price: 1.79,
     },
     {
         id: 1,
@@ -32,7 +32,7 @@ export const chocolate = [
         image: '../assets/darkkitkat-king.jpg',
         description: 'Dark Chocolate Wafers',
         category: 'candy',
-        size: 'king',
-        price: 2.19
-    },
+        size: 'King',
+        price: 2.19,
+    }
 ];

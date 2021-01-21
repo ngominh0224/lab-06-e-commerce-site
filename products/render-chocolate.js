@@ -6,8 +6,8 @@ export function renderChocolate(chocolate) {
     img.classList.add('image');
     li.append(img);
     img.src = `${chocolate.image}`;
-    img.setAttribute('height', 200);
-    img.setAttribute('width', 200);
+    img.setAttribute('height', 500);
+    img.setAttribute('width', 500);
 
     const h2 = document.createElement('h2');
     h2.classList.add('name');
@@ -16,12 +16,12 @@ export function renderChocolate(chocolate) {
 
     const pPrice = document.createElement('p');
     pPrice.classList.add('price');
-    pPrice.textContent = `$${chocolate.price}`;
+    pPrice.textContent = `${chocolate.price}`;
     li.append(pPrice);
 
     const pSize = document.createElement('p');
     pSize.classList.add('size');
-    pSize.textContent = `Size: ${chocolate.size}`;
+    pSize.textContent = `${chocolate.size}`;
     li.append(pSize);
 
     const pDescription = document.createElement('p');
