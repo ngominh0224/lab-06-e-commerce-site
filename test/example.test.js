@@ -46,8 +46,8 @@ test('takes in cart quantity and product price to get a total', (expect) => {
 
 test('takes in item total prices and adds them together', (expect) => {
     const total = 0;
-    const itemTotal = 30;
-    const expected = `30`;
+    const itemTotal = 1.79;
+    const expected = `1.79`;
     const actual = calcOrderTotal(total, itemTotal);
 
     expect.equal(actual, expected);
