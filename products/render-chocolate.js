@@ -1,4 +1,5 @@
 export function renderChocolate(chocolates) {
+
     const li = document.createElement('li');
     li.classList.add('list-item');
 
@@ -29,10 +30,10 @@ export function renderChocolate(chocolates) {
     pDescription.textContent = `${chocolates.description}`;
     li.append(pDescription);
 
-    const button1 = document.createElement('button');
-    button1.classList.add('button');
-    button1.textContent = 'Add To Cart';
-    li.append(button1);
+    const buttonCart = document.createElement('button');
+    buttonCart.classList.add('button');
+    buttonCart.textContent = 'Add To Cart';
+    li.append(buttonCart);
 
     return li;
 }

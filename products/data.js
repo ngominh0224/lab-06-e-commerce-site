@@ -27,7 +27,7 @@ export const chocolates = [
         price: 1.79,
     },
     {
-        id: 1,
+        id: 4,
         name: 'King-Size-Dark-Kit-Kat',
         image: '../assets/darkkitkat-king.jpg',
         description: 'Dark Chocolate Wafers',

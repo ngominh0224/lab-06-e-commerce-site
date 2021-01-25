@@ -1,0 +1,20 @@
+body {
+    background-image: url(https://4urspace-blog-media.s3.amazonaws.com/blog/wp-content/uploads/2020/03/12123704/7bfd5420ab1f7f1c7d55554425be19e2_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:link {
+    background-color:white;
+    text-decoration: none;
+    border: 2px;
+}

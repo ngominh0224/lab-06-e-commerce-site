@@ -1,10 +1,10 @@
 import { chocolates } from './data.js';
 import { renderChocolate } from './render-chocolate.js';
 
-const list = document.getElementById('list');
+const chocolateList = document.getElementById('list');
 
 for (let chocolate of chocolates) {
-    const productElement = renderChocolate(chocolate);
+    const chocolateElement = renderChocolate(chocolate);
 
-    list.append(productElement);
+    chocolateList.append(chocolateElement);
 }
