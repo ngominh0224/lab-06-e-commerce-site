@@ -1,4 +1,4 @@
-export const chocolate = [
+export const chocolates = [
     {
         id: 1,
         name: 'Kit-Kat',
