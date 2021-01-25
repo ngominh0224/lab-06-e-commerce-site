@@ -24,10 +24,3 @@ button {
 margin: 25px 25px 25px 25px;
 
 }
-
-.order-total{
-    display: flex;
-    justify-content: flex-end;
-    color: indianred;
-    font-size: 17px;
-}
